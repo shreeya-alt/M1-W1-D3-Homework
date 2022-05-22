@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Website</title>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+
+        .body-heading{
+            background-color: #1a62a5df;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            font-family: "Merriweather";
+        }
+
+        .profile-pic{
+            height: 100px;
+            border-radius: 50%;
+            border: 2px dashed green;
+            margin: 15px;
+        }
+
+        .favourite-img{
+            height: 200px;
+            border-radius: 15px;
+            border: 5px solid grey;
+            margin: 15px;
+        }
+
+        .first-para, .sec-para, .third-para{
+            margin: 7px;
+            font-family: "poppins";
+            background-color: wheat;
+            padding: 15px;
+            border: 2px solid black;
+        }
+
+        .first-para{
+            border: none;
+            border-left: 4px solid red;
+            background-color: rgba(19, 197, 19, 0.32);
+        }
+        .sec-para{
+            border: none;
+            border-left: 4px solid #0000ff;
+            background-color: #0000ff46;
+        }
+        .third-para{
+            border: none;
+            border-top: 4px solid #fcff4a;
+            border-right: 4px solid #fcff4a;
+            background-color: #ffb005;
+        }
+
+
+        div{
+            display: flex;
+        }
+
+        .btn-login{
+            background: #1ad61d;
+            border: 3px solid transparent;
+            padding: 8px;
+            font-size: 12pt;
+            width: 12em;
+            font-weight: 700;
+        }
+        .btn-login:hover{
+            background-color: transparent;
+            border: 3px solid #1ad61d;
+            cursor: pointer;
+        }
+
+        .btn-register{
+            background: rgb(0, 0, 255);
+            border: 3px solid transparent;
+            padding: 8px;
+            font-size: 12pt;
+            width: 12em;
+            font-weight: 700;
+        }
+        .btn-register:hover{
+            background-color: rgba(71, 71, 255, 0.658);
+            border: 3px solid rgb(0, 0, 255);
+            cursor: pointer;
+        }
+
+        .buttons{
+            justify-content: space-evenly;
+        }
+
+        .foot-header{
+            background: #086d76;
+            color: #fff;
+            font-family: 'Segoe UI';
+            font-weight: 600; padding: 7px;
+        }
+
+        .follow-list{
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+
+        .follow-list-anchor{
+            text-decoration: none;
+            color: rgb(148, 14, 103); 
+            font-weight: 700; 
+            font-family: 'Merriweather';
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="body-heading">This is my personal Website</h1>
+
+    <div>
+        <img class="profile-pic" src="image/my-profile-picture.png" alt="This is my picture">
+    
+        <p class="first-para">
+            Hey, this is my homepage, so I have to say something about myself. Sometimes it is hard to introduce yourself because you know yourself so well that you do not know where to start with. Let me give a try to see what kind of image you have about me through my self-description. I hope that my impression about myself and your impression about me are not so different. Here it goes.
+        </p>
+    </div>
+
+    <p class="sec-para">
+        I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; I like to feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the clouds in the sky with a blank mind, I like to do thought experiment when I cannot sleep in the middle of the night. I like flowers in spring, rain in summer, leaves in autumn, and snow in winter. I like to sleep early, I like to get up late; I like to be alone, I like to be surrounded by people. I like country’s peace, I like metropolis’ noise; I like the beautiful west lake in Hangzhou, I like the flat cornfield in Champaign. I like delicious food and comfortable shoes; I like good books and romantic movies. I like the land and the nature, I like people. And, I like to laugh.
+    </p>
+
+    <div>
+        <img class="favourite-img" src="image/fav-img.jpg" alt="This is my favorite image">
+
+        <p class="third-para">
+            I always wanted to be a great writer, like Victor Hugo who wrote "Les Miserable", or like Roman Roland who wrote "John Christopher". They have influenced millions of people through their books. I also wanted to be a great psychologist, like William James or Sigmund Freud, who could read people’s mind. Of course, I am nowhere close to these people, yet. I am just someone who does some teaching, some research, and some writing. But my dream is still alive.
+        </p>
+    </div>
+
+    <div class="buttons">
+        <button class="btn-login">Login</button>
+        <button class="btn-register">Register</button>
+    </div>
+
+
+    <h3 class="foot-header">Follow me on:</h3>
+    <ul class="follow-list">
+        <li><a class="follow-list-anchor" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <li><a class="follow-list-anchor" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a class="follow-list-anchor" href="https://twitter.com/" target="_blank">Twitter</a></li>
+    </ul>
+</body>
+</html>
